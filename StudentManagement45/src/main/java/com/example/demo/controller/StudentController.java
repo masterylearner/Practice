@@ -27,7 +27,7 @@ public StudentController(CollegeStudentServiceImpl collegeStudentServiceImpl, Sc
 	
 	
 
-	@GetMapping("OldFees/{type}")
+	@GetMapping("Fees/{type}")
 	String getFees(@PathVariable String type) {
 
 		if(type.equals("school"))
